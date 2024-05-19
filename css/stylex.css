@@ -7,8 +7,8 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
-  --bs-FLNGpink: #ff30ac;
-  --bs-FLNGblue: #64d5ff;
+  --bs-bzctgreen: #a3ff60;
+  --bs-bzctblue: #64d5ff;
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
@@ -33,11 +33,7 @@
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(45deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 19, 0.6) 8%, rgba(31, 30, 13, 0.6) 29%, rgba(0, 9, 0, 0.7) 72%, rgba(0, 0, 19, 1) 92%, rgba(0, 0, 0, 1) 100%);
-  --bs-gradient2: linear-gradient(225deg, rgba(0, 0, 0, 0) 0%, 
-                                           rgba(2, 4, 31, 0.8) 8%, 
-                                          rgba(10 , 0, 30, 0.4) 29%, 
-                                          rgba(5, 9, 0, 0.8) 72%, 
-                                          rgba(2, 4, 31, 1) 100%)
+  --bs-gradient2: linear-gradient(225deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 19, 0.8) 8%, rgba(31, 30, 13, 0.6) 29%, rgba(0, 9, 0, 0.8) 72%, rgba(0, 0, 19, 1) 92%, rgba(0, 0, 0, 1) 100%)
 }
 
 *,
@@ -59,9 +55,9 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: #fff;
-  background-color: #fff;
+  /*background-color: #fff;*/
   -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: transparent
 }
 
 .h1,
@@ -842,7 +838,7 @@ button:not(:disabled) {
 }
 
 img {
-  max-height: 480px
+  max-height: 420px
 }
 
 @media (prefers-reduced-motion:reduce) {
@@ -3204,7 +3200,7 @@ h4,
 h5,
 h6 {
   color: #64d5ff;
-  font-family: "Trade Winds", sans-serif;
+  font-family: Rubik, sans-serif;
   font-weight: 700
 }
 
@@ -3272,7 +3268,7 @@ h6 {
   content: "";
   height: 15px;
   width: 15px;
-  background-color: #f67013;
+  background-color: #3c8d53;
   top: 100%;
   left: 60%;
   z-index: -1;
@@ -3310,15 +3306,15 @@ h6 {
 }
 
 .btn-primary {
-  background: linear-gradient(45deg, rgb(100 213 255) 0,  rgb(255 48 172) 100%););  
+  background: linear-gradient(45deg, rgb(100 213 255) 0, rgb(163 255 96) 100%);
   color: #000;
-  border-color: var(--bs-FLNGpink)
+  border-color: var(--bs-bzctgreen)
 }
 
 .btn-primary:active,
 .btn-primary:focus,
 .btn-primary:hover {
-  background: var(--bs-FLNGpink) !important;
+  background: var(--bs-bzctgreen) !important;
   color: #000;
 }
 
@@ -3333,12 +3329,12 @@ body {
 }
 
 ::-moz-selection {
-  background: var(--bs-FLNGpink);
+  background: var(--bs-bzctgreen);
   color: #fff
 }
 
 ::selection {
-  background: var(--bs-FLNGpink);
+  background: var(--bs-bzctgreen);
   color: #fff
 }
 
@@ -3369,11 +3365,11 @@ select:focus {
 }
 
 a {
-  color: var(--bs-FLNGpink)
+  color: var(--bs-bzctgreen)
 }
 
 a:hover {
-  color: var(--bs-FLNGpink);
+  color: var(--bs-bzctgreen);
   text-decoration: underline
 }
 
@@ -3401,7 +3397,7 @@ a:hover {
 }
 
 .bg-primary {
-  background: var(--bs-FLNGpink) !important
+  background: var(--bs-bzctgreen) !important
 }
 
 .bg-primary-light {
@@ -3409,7 +3405,7 @@ a:hover {
 }
 
 .text-primary {
-  color: var(--bs-FLNGpink) !important
+  color: var(--bs-bzctgreen) !important
 }
 
 .rounded {
@@ -3448,12 +3444,12 @@ a:hover {
 }
 
 .content a {
-  border-bottom: 1px dotted var(--bs-FLNGpink)
+  border-bottom: 1px dotted var(--bs-bzctgreen)
 }
 
 .content a:hover {
-  color: var(--bs-FLNGpink);
-  border-bottom: 1px solid var(--bs-FLNGpink)
+  color: var(--bs-bzctgreen);
+  border-bottom: 1px solid var(--bs-bzctgreen)
 }
 
 .content ul {
@@ -3523,7 +3519,7 @@ a:hover {
   position: absolute;
   left: 0;
   top: 2px;
-  color: var(--bs-FLNGpink)
+  color: var(--bs-bzctgreen)
 }
 
 .navbar-brand {
@@ -3561,7 +3557,7 @@ a:hover {
   width: calc(100% - 30px);
   height: 2px;
   z-index: -1;
-  background-color: var(--bs-FLNGpink);
+  background-color: var(--bs-bzctgreen);
   transform: scaleX(0);
   transition: .25s
 }
@@ -3574,7 +3570,7 @@ a:hover {
 
 .navigation .nav-item:hover .nav-link {
   text-decoration: none;
-  /*color: var(--bs-FLNGpink) !important*/
+  /*color: var(--bs-bzctgreen) !important*/
 }
 
 .navigation .nav-item:hover .nav-link::before {
@@ -3582,11 +3578,11 @@ a:hover {
 }
 
 .navigation .navbar-light .navbar-nav .nav-link {
-  color: var(--bs-FLNGpink);
+  color: var(--bs-bzctgreen);
 }
 
 .navigation .navbar-light .navbar-nav .nav-link:hover {
-  color: var(--bs-FLNGblue);
+  color: var(--bs-bzctblue);
 }
 
 .navigation .navbar-expand-xl .navbar-nav .nav-link {
@@ -3690,7 +3686,7 @@ a:hover {
   margin-bottom: 20px;
   text-align: center;
   color: #fff;
-  background-color: var(--bs-FLNGpink)
+  background-color: var(--bs-bzctgreen)
 }
 
 .icon-lg {
@@ -3748,7 +3744,7 @@ a:hover {
   width: 50px;
   line-height: 50px;
   border-radius: 50%;
-  background: #00f1ff;
+  background: rgba(81, 181, 109, 0.5);
   color: #fff;
   border: 0;
 }
@@ -3761,7 +3757,7 @@ a:hover {
   outline: 0;
 }
 .slick-arrow:hover {
-  background: var(--bs-FLNGpink);
+  background: var(--bs-bzctgreen);
 }
 
 .prevArrow {
@@ -3857,10 +3853,4 @@ a:hover {
 .trigger-btn {
   display: inline-block;
   margin: 100px auto;
-}
-
-.image-with-shadow {
-   /* width: 200px; /* Adjust width as needed */
-    height: auto; /* Automatically adjust height */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow properties */
 }

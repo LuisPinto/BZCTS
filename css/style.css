@@ -8677,8 +8677,8 @@ p, .paragraph {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   color: #040404;
-  /*font-family: ""Trade Winds"", sans-serif;*/
-  font-family: ""Trade Winds"", sans-serif;
+  /*font-family: "Rubik", sans-serif;*/
+  font-family: "Rubik", sans-serif;
   font-weight: 700;
 }
 
@@ -9748,7 +9748,7 @@ blockquote::before {
   border-radius: 50%;
   color: #fff;
   position: relative;
-  font-family: ""Trade Winds"", sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 .loan-steps .count::after {
   position: absolute;
